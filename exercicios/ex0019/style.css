@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'crayon' ;
+    src: url(fonts/CrayonHand.ttf);
+}
+/*
+  tudo em que html é ID = CSS é #
+  tudo em que html é class = em CSS é .
+*/
+
+
+body{
+    background-image:linear-gradient(to left,rgb(2, 255, 2),rgb(2, 41, 2));
+    font-family: 'crayon',Arial, Helvetica, sans-serif;
+}
+h1{
+color: rgb(242, 248, 242);
+}
+h1#principal{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+h1#secundario{
+    color: rgb(26, 216, 9);
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+}
+h2{
+color: rgb(64, 241, 64);
+}
+p{
+    color: rgb(237, 243, 237);
+    text-align: justify;
+}
+.basico{
+    color: yellow;
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(20, 241, 68);
+}
+.destaque{
+    background-color: rgb(242, 243, 242);
+}
